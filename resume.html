@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anam Fathima | Resume</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* Photo Container & Image Styling */
+        .cv-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 24px;
+        }
+
+        .cv-photo {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            overflow: hidden;
+            flex-shrink: 0;
+            border: 3px solid #e2e8f0;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            background-color: #f8fafc;
+        }
+
+        .cv-photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center top;
+            display: block;
+        }
+
+        /* Responsive adjustment for mobile screens */
+        @media (max-width: 600px) {
+            .cv-header {
+                flex-direction: column-reverse;
+                text-align: center;
+            }
+
+            .cv-photo {
+                width: 120px;
+                height: 120px;
+            }
+        }
+
+        /* Bottom Buttons */
+        .cv-bottom-actions {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            margin-top: 40px;
+            padding: 20px 0;
+            flex-wrap: wrap;
+        }
+
+        /* Hide buttons when printing or saving as PDF */
+        @media print {
+            .cv-bottom-actions {
+                display: none !important;
+            }
+        }
+    </style>
+</head>
+
+<body class="resume-page">
+
+<nav>
+    <a href="index.html" class="logo">MY SPACE<span>.</span></a>
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="resume.html" class="active">Resume</a>
+        <a href="biodata.html">Bio-data</a>
+    </div>
+</nav>
+
+<main class="cv-container">
+
+    <header class="cv-header">
+        <div>
+            <p class="cv-eyebrow">Anam Fathima | Resume / 2026</p>
+            <h1>Anam <span>Fathima.</span></h1>
+            <h3>Computer Science & Engineering Student</h3>
+
+            <div class="career-objective">
+                <h4>CAREER OBJECTIVE</h4>
+                <p class="cv-summary">
+                    Motivated Computer Science and Engineering student seeking an opportunity
+                    to apply academic knowledge, develop technical skills, gain practical
+                    experience, and contribute to organizational growth.
+                </p>
+            </div>
+        </div>
+
+        <!-- Profile Photo Section -->
+        <div class="cv-photo">
+            <img src="pic.jpeg" alt="Anam Fathima" onerror="this.src='https://via.placeholder.com/150?text=Photo'">
+        </div>
+    </header>
+
+    <div class="cv-contact">
+        <span>✉ anamibrahim098@gmail.com</span>
+        <span>☎ 8073765733</span>
+        <span>⌖ Puttur, Karnataka, India</span>
+    </div>
+
+    <div class="cv-layout">
+
+        <aside class="cv-sidebar">
+
+            <section class="cv-section">
+                <p class="cv-label">01 / EXPERTISE</p>
+                <h2>Technical Skills</h2>
+                <div class="cv-tags">
+                    <span>Python</span>
+                    <span>C</span>
+                    <span>C++</span>
+                    <span>Java</span>
+                    <span>JavaScript</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>Flask</span>
+                    <span>MySQL</span>
+                    <span>Git & GitHub</span>
+                </div>
+            </section>
+
+            <section class="cv-section">
+                <p class="cv-label">02 / CREDENTIALS</p>
+                <h2>Certifications</h2>
+
+                <ul class="cv-list">
+                    <li><strong>Full Stack Development</strong><br><small></small></li>
+                    <li><strong>Data Structure And Algorithm </strong><br><small></small></li>
+                </ul>
+            </section>
+
+            <section class="cv-section">
+                <p class="cv-label">03 / STRENGTHS</p>
+                <h2>Personal Strengths</h2>
+
+                <ul class="cv-list">
+                    <li>Willingness to Learn</li>
+                    <li>Teamwork</li>
+                    <li>Time Management</li>
+                    <li>Adaptability</li>
+                </ul>
+            </section>
+
+            <section class="cv-section">
+                <p class="cv-label">04 / LANGUAGES</p>
+                <h2>Languages</h2>
+
+                <ul class="cv-list">
+                    <li>English</li>
+                    <li>Kannada</li>
+                    <li>Hindi</li>
+                    <li>Malayalam</li>
+                </ul>
+            </section>
+
+        </aside>
+
+        <div class="cv-main">
+
+            <section class="cv-section">
+                <p class="cv-label">05 / FEATURED PROJECT</p>
+                <h2>Academic Work</h2>
+
+                <div class="cv-project">
+                    <span class="cv-year">ACADEMIC MINI-PROJECT</span>
+                    <h3>Local Tourism & Recommendation App</h3>
+                    <p>
+                        Developed a web application designed to help users discover nearby tourist
+                        attractions through recommendations
+                        and distance information.
+                    </p>
+
+                    <h3>Blood Donor Management System</h3>
+                    <p>
+                        Developed a Blood Donor Management System to connect blood donors with people in need of blood. The system helps manage donor details, blood group information, and requests, making the process of finding suitable donors easier and faster.
+                    </p>
+
+                    <p class="cv-tech">
+                        <b>Tech Stack:</b> HTML, CSS, JavaScript, Python Flask, MySQL
+                    </p>
+                </div>
+            </section>
+
+            <section class="cv-section">
+                <p class="cv-label">06 / EDUCATION</p>
+                <h2>Academic Background</h2>
+
+                <div class="education-item">
+                    <span class="cv-year">2024 – 2028</span>
+                    <h3>Bachelor of Engineering</h3>
+                    <p class="cv-course">Computer Science & Engineering</p>
+                    <p>Vivekananda College of Engineering and Technology</p>
+                    <p><strong>CGPA:</strong> 8</p>
+                    <span class="cv-status">Currently Pursuing</span>
+                </div>
+
+                <div class="education-item">
+                    <span class="cv-year">2022 – 2024</span>
+                    <h3>Pre-University Course (PUC)</h3>
+                    <p>Presidency PU College, Mangalore</p>
+                    <p><strong>Result:</strong> 87.33%</p>
+                </div>
+
+                <div class="education-item">
+                    <span class="cv-year">2022</span>
+                    <h3>SSLC</h3>
+                    <p>Sudana Residential School, Puttur</p>
+                    <p><strong>Percentage:</strong> 96.35%</p>
+                </div>
+            </section>
+
+        </div>
+
+    </div>
+
+    <!-- Bottom Buttons -->
+    <div class="cv-bottom-actions">
+
+        <a href="index.html" class="back-link">
+            ← Back to Home
+        </a>
+
+        <button class="print-button" onclick="window.print()">
+            Print Resume
+        </button>
+
+    </div>
+
+</main>
+
+</body>
+</html>

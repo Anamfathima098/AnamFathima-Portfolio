@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anam Fathima | Bio-data</title>
+<link rel="stylesheet" href="style.css">
+<style>
+/* Ensures the photo crops cleanly inside the bio-avatar container */
+.bio-avatar {
+overflow: hidden;
+padding: 0;
+flex-shrink: 0;
+}
+.bio-avatar img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+object-position: center top;
+display: block;
+}
+/* Bottom Buttons */
+.cv-bottom-actions {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 15px;
+margin-top: 40px;
+padding: 20px 0;
+flex-wrap: wrap;
+}
+/* Hide buttons when printing or saving as PDF */
+@media print {
+.cv-bottom-actions {
+display: none !important;
+}
+}
+</style>
+</head>
+<body class="bio-page">
+<nav>
+<a href="index.html" class="logo">MY SPACE<span>.</span></a>
+<div class="nav-links">
+<a href="index.html">Home</a>
+<a href="resume.html">Resume</a>
+<a href="biodata.html" class="active">Bio-data</a>
+</div>
+</nav>
+<main class="bio-container">
+<header class="bio-heading">
+<h1>Beyond the <span>Academics.</span></h1>
+<p>A little introduction to my background, personality and interests.</p>
+</header>
+<section class="bio-profile">
+<div class="bio-avatar">
+<img src="pic.jpeg" alt="Anam Fathima">
+</div>
+<div class="bio-profile-info">
+<p class="bio-label">A LITTLE INTRODUCTION</p>
+<h2>Anam Fathima</h2>
+<p class="bio-role">Computer Science & Engineering Student</p>
+<p>
+A curious and creative learner who enjoys exploring new ideas, discovering new places and continuously growing through experiences.
+</p>
+<div class="bio-location">⌖ Puttur, Karnataka, India</div>
+</div>
+</section>
+<section class="bio-block">
+<div class="bio-section-heading">
+<span>01</span>
+<div>
+<p class="bio-label">GETTING TO KNOW ME</p>
+<h2>Personal Information</h2>
+</div>
+</div>
+<div class="bio-details">
+<div class="bio-detail">
+<span>Full Name</span>
+<strong>Anam Fathima</strong>
+</div>
+<div class="bio-detail">
+<span>Date of Birth</span>
+<strong>22 June 2006</strong>
+</div>
+<div class="bio-detail">
+<span>Gender</span>
+<strong>Female</strong>
+</div>
+<div class="bio-detail">
+<span>Nationality</span>
+<strong>Indian</strong>
+</div>
+<div class="bio-detail">
+<span>Father's Name</span>
+<strong>B. Ibrahim</strong>
+</div>
+<div class="bio-detail">
+<span>Mother's Name</span>
+<strong>Mariyam Rubina</strong>
+</div>
+<div class="bio-detail">
+<span>Marital Status</span>
+<strong>Single</strong>
+</div>
+<div class="bio-detail">
+<span>Location</span>
+<strong>Puttur, Karnataka</strong>
+</div>
+<div class="bio-detail">
+<span>Email Address</span>
+<strong>anamibrahim098@gmail.com</strong>
+</div>
+<div class="bio-detail">
+<span>Contact Number</span>
+<strong>8073765733</strong>
+</div>
+</div>
+</section>
+<section class="bio-two-column">
+<div class="bio-small-card">
+<p class="bio-label">03 / COMMUNICATION</p>
+<h2>Languages Known</h2>
+<div class="bio-pills">
+<span>English</span>
+<span>Kannada</span>
+<span>Hindi</span>
+<span>Malayalam</span>
+</div>
+</div>
+<div class="bio-small-card">
+<p class="bio-label">04 / FREE TIME</p>
+<h2>Hobbies & Interests</h2>
+<ul class="bio-hobbies">
+<li>Creative activities and craft making</li>
+<li>Travelling and exploring new places</li>
+<li>Learning new things</li>
+</ul>
+</div>
+</section>
+<section class="bio-quote">
+<p class="bio-label">A THOUGHT I BELIEVE IN</p>
+<h2>"Every day is an opportunity to learn, improve and become better."</h2>
+<span>— Anam Fathima</span>
+</section>
+<!-- Bottom Buttons -->
+<div class="cv-bottom-actions">
+<a href="index.html" class="back-link">← Back to Home</a>
+<button class="print-button" onclick="window.print()">Print Biodata</button>
+</div>
+</main>
+</body>
+</html>
